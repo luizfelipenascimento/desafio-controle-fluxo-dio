@@ -1,18 +1,19 @@
-## Getting Started
+## Projeto Trilha Java Básico - Controle de Fluxo - Desafio
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esse projeto é uma entrega para o bootcamp dio. 
 
-## Folder Structure
+O projeto consiste e capturar do usário dois parametros respeitando as seguintes regras:
 
-The workspace contains two folders by default, where:
+* Se você passar os números 12 e 30, logo teremos uma interação (for) com 18 ocorrências para imprimir os números, exemplo: `"Imprimindo o número 1"`, `"Imprimindo o número 2"` e assim por diante.
+* Se o primeiro parâmetro for MAIOR que o segundo parâmetro, você deverá lançar a exceção customizada chamada de `ParametrosInvalidosException` com a segunda mensagem: "O segundo parâmetro deve ser maior que o primeiro"   
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Incrementos: 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Para incrementar o desafios foram criadas funções de leitura e validação de inputs.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura de Pastas
 
-## Dependency Management
+O workspace contém duas pastas por padrão, onde:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `src`: a pasta para manter os arquivos-fonte  
+- `lib`: a pasta para manter as dependências  
